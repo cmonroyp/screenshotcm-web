@@ -1,0 +1,35 @@
+name: "Sugerencia · Suggestion"
+description: "Una idea para mejorar ScreenShotCM · An idea to improve ScreenShotCM"
+title: "[Sugerencia] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Este repositorio es público.** No adjuntes capturas ni textos con datos personales, contraseñas o información de tu empresa.
+        **This repository is public.** Do not attach screenshots or text with personal data, passwords or company information.
+  - type: textarea
+    id: problem
+    attributes:
+      label: "Qué quieres hacer · What you want to do"
+      description: "La situación o el problema, más que la solución · The situation or problem, rather than the solution"
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: "Cómo te lo imaginas · How you picture it"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: "Versión de ScreenShotCM (opcional) · ScreenShotCM version (optional)"
+      placeholder: "0.3.0"
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: "Privacidad · Privacy"
+      options:
+        - label: "Lo que adjunto no contiene datos personales ni sensibles · What I attach contains no personal or sensitive data"
+          required: true
