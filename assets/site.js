@@ -35,7 +35,7 @@
     "sha.body": "Every capture shows up as a thumbnail in the corner. Hover to copy or save it, drag it straight into a chat, an email or a document, or double-click to annotate it.",
     "sha.l1": "Copy, save, pin, annotate or delete from the thumbnail",
     "sha.l2": "Drag and drop into any application",
-    "sha.l3": "Last month's history, always at hand",
+    "sha.l3": "Optional history: nothing is kept unless you ask",
     "pin.title": "A reference that <em>stays put</em>.",
     "pin.body": "Pin a capture above every window while you work: a figure, a design, a piece of code. Drag it, resize it with the wheel, change its opacity with Ctrl + wheel, or lock it so clicks pass through.",
     "lig.title": "Made to <em>go unnoticed</em>.",
