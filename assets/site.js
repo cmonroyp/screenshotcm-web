@@ -28,7 +28,7 @@
     "ann.body": "The editor opens as soon as you capture. Straight or curved arrows, rectangles, ellipses, text, numbered counters, spotlight, pen and highlighter. And pixelate hides what must not be seen in one stroke.",
     "tool.arrow": "Curved arrows", "tool.text": "Editable text", "tool.counter": "Counters",
     "tool.pixelate": "Pixelate", "tool.spotlight": "Spotlight", "tool.highlight": "Highlighter",
-    "tool.crop": "Crop", "tool.undo": "Unlimited undo",
+    "tool.crop": "Crop", "tool.resize": "Resize", "tool.undo": "Undo and redo",
     "pre.title": "Ready for the <em>presentation</em>.",
     "pre.body": "One click and the capture floats on a gradient, with padding, rounded corners and a shadow. Perfect for documentation, social posts or a slide.",
     "sha.title": "It is already on your <em>clipboard</em>.",
