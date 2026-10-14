@@ -27,6 +27,7 @@
     </a>
     <nav class="links" aria-label="Secciones">
       <a href="#capturar" data-i18n="nav.capture">Capturar</a>
+      <a href="#desplazar" data-i18n="nav.scroll">Desplazar</a>
       <a href="#anotar" data-i18n="nav.annotate">Anotar</a>
       <a href="#compartir" data-i18n="nav.share">Compartir</a>
       <a href="#ligero" data-i18n="nav.light">Ligero</a>
@@ -42,12 +43,13 @@
     <ol>
       <li><a href="#top"><span>00</span><em data-i18n="rail.intro">Inicio</em></a></li>
       <li><a href="#capturar"><span>01</span><em data-i18n="nav.capture">Capturar</em></a></li>
-      <li><a href="#anotar"><span>02</span><em data-i18n="nav.annotate">Anotar</em></a></li>
-      <li><a href="#presentar"><span>03</span><em data-i18n="nav.present">Presentar</em></a></li>
-      <li><a href="#compartir"><span>04</span><em data-i18n="nav.share">Compartir</em></a></li>
-      <li><a href="#fijar"><span>05</span><em data-i18n="nav.pin">Fijar</em></a></li>
-      <li><a href="#ligero"><span>06</span><em data-i18n="nav.light">Ligero</em></a></li>
-      <li><a href="#descargar"><span>07</span><em data-i18n="nav.download">Descargar</em></a></li>
+      <li><a href="#desplazar"><span>02</span><em data-i18n="nav.scroll">Desplazar</em></a></li>
+      <li><a href="#anotar"><span>03</span><em data-i18n="nav.annotate">Anotar</em></a></li>
+      <li><a href="#presentar"><span>04</span><em data-i18n="nav.present">Presentar</em></a></li>
+      <li><a href="#compartir"><span>05</span><em data-i18n="nav.share">Compartir</em></a></li>
+      <li><a href="#fijar"><span>06</span><em data-i18n="nav.pin">Fijar</em></a></li>
+      <li><a href="#ligero"><span>07</span><em data-i18n="nav.light">Ligero</em></a></li>
+      <li><a href="#descargar"><span>08</span><em data-i18n="nav.download">Descargar</em></a></li>
     </ol>
     <div class="rail-progress"><i></i></div>
   </aside>
@@ -99,10 +101,38 @@
       </figure>
     </section>
 
-    <!-- 02 · Anotar -->
-    <section class="chapter flip" id="anotar" data-chapter>
+    <!-- 02 · Desplazar -->
+    <section class="chapter flip" id="desplazar" data-chapter>
       <div class="copy">
-        <p class="eyebrow"><span>02</span> · <span data-i18n="nav.annotate">Anotar</span></p>
+        <p class="eyebrow"><span>02</span> · <span data-i18n="nav.scroll">Desplazar</span></p>
+        <h2 data-i18n="scr.title">Una página entera, <em>en una sola imagen</em>.</h2>
+        <p data-i18n="scr.body">Chats largos, documentos y páginas web que no caben en la pantalla. Elige el área y desplázate con la rueda, o pulsa «Desplazar solo» y ScreenShotCM baja hasta el final por ti, uniendo cada tramo nuevo al anterior.</p>
+        <ul class="list">
+          <li data-i18n="scr.l1">Los encabezados fijos aparecen una sola vez</li>
+          <li data-i18n="scr.l2">Sin restos de la barra de desplazamiento ni bordes repetidos</li>
+          <li data-i18n="scr.l3">Una vista previa muestra cómo crece la imagen</li>
+        </ul>
+        <ul class="keys">
+          <li><kbd data-i18n="key.ctrlshiftprt">Ctrl + Shift + Impr Pant</kbd><span data-i18n="scr.key">Captura con desplazamiento</span></li>
+        </ul>
+      </div>
+      <figure class="frame pair reveal">
+        <img class="shot" data-shot="scroll.jpg" src="assets/img/es/scroll.jpg" width="1010" height="837" loading="lazy"
+             alt="Captura con desplazamiento en curso sobre una conversación, con su barra y la vista previa" data-i18n-alt="alt.scroll">
+        <div class="long-wrap">
+          <div class="long">
+            <img class="shot" data-shot="long.jpg" src="assets/img/es/long.jpg" width="360" height="1528" loading="lazy"
+                 alt="La conversación completa en una sola imagen larga" data-i18n-alt="alt.long">
+          </div>
+          <p class="long-tag" data-i18n="scr.tag">El resultado: 1 imagen de 2.725 px</p>
+        </div>
+      </figure>
+    </section>
+
+    <!-- 03 · Anotar -->
+    <section class="chapter" id="anotar" data-chapter>
+      <div class="copy">
+        <p class="eyebrow"><span>03</span> · <span data-i18n="nav.annotate">Anotar</span></p>
         <h2 data-i18n="ann.title">Explica con <em>una flecha</em>, no con un párrafo.</h2>
         <p data-i18n="ann.body">El editor se abre solo al capturar. Flechas rectas o curvas, rectángulos, elipses, texto, contadores numerados, foco, lápiz y resaltador. Y el pixelado oculta en un gesto lo que no debe verse.</p>
         <ul class="chips">
@@ -122,10 +152,10 @@
       </figure>
     </section>
 
-    <!-- 03 · Presentar -->
+    <!-- 04 · Presentar -->
     <section class="chapter wide" id="presentar" data-chapter>
       <div class="copy center">
-        <p class="eyebrow"><span>03</span> · <span data-i18n="nav.present">Presentar</span></p>
+        <p class="eyebrow"><span>04</span> · <span data-i18n="nav.present">Presentar</span></p>
         <h2 data-i18n="pre.title">Lista para la <em>presentación</em>.</h2>
         <p data-i18n="pre.body">Un clic y la captura flota sobre un degradado, con margen, esquinas redondeadas y sombra. Perfecta para documentación, redes o una diapositiva.</p>
       </div>
@@ -135,10 +165,10 @@
       </figure>
     </section>
 
-    <!-- 04 · Compartir -->
-    <section class="chapter" id="compartir" data-chapter>
+    <!-- 05 · Compartir -->
+    <section class="chapter flip" id="compartir" data-chapter>
       <div class="copy">
-        <p class="eyebrow"><span>04</span> · <span data-i18n="nav.share">Compartir</span></p>
+        <p class="eyebrow"><span>05</span> · <span data-i18n="nav.share">Compartir</span></p>
         <h2 data-i18n="sha.title">Ya está en tu <em>portapapeles</em>.</h2>
         <p data-i18n="sha.body">Cada captura aparece en una miniatura en la esquina. Pasa el ratón para copiarla o guardarla, arrástrala directamente a un chat, un correo o un documento, o haz doble clic para anotarla.</p>
         <ul class="list">
@@ -153,10 +183,10 @@
       </figure>
     </section>
 
-    <!-- 05 · Fijar -->
-    <section class="chapter flip" id="fijar" data-chapter>
+    <!-- 06 · Fijar -->
+    <section class="chapter" id="fijar" data-chapter>
       <div class="copy">
-        <p class="eyebrow"><span>05</span> · <span data-i18n="nav.pin">Fijar</span></p>
+        <p class="eyebrow"><span>06</span> · <span data-i18n="nav.pin">Fijar</span></p>
         <h2 data-i18n="pin.title">Una referencia que <em>no se va</em>.</h2>
         <p data-i18n="pin.body">Fija una captura sobre todas las ventanas mientras trabajas: una cifra, un diseño, un fragmento de código. Arrástrala, cambia su tamaño con la rueda, su opacidad con Ctrl + rueda, o bloquéala para que los clics la atraviesen.</p>
       </div>
@@ -166,10 +196,10 @@
       </figure>
     </section>
 
-    <!-- 06 · Ligero -->
+    <!-- 07 · Ligero -->
     <section class="chapter light" id="ligero" data-chapter>
       <div class="copy">
-        <p class="eyebrow"><span>06</span> · <span data-i18n="nav.light">Ligero</span></p>
+        <p class="eyebrow"><span>07</span> · <span data-i18n="nav.light">Ligero</span></p>
         <h2 data-i18n="lig.title">Hecho para <em>no notarse</em>.</h2>
         <p data-i18n="lig.body">Escrito en Rust sobre las API nativas de Windows. Sin navegador embebido, sin runtime, sin servicios en segundo plano. Arranca con Windows y espera en la bandeja gastando menos memoria que un icono de escritorio.</p>
         <dl class="specs">
@@ -186,10 +216,10 @@
       </figure>
     </section>
 
-    <!-- 07 · Descargar -->
+    <!-- 08 · Descargar -->
     <section class="download" id="descargar" data-chapter>
       <div class="glow glow-c"></div>
-      <p class="eyebrow"><span>07</span> · <span data-i18n="nav.download">Descargar</span></p>
+      <p class="eyebrow"><span>08</span> · <span data-i18n="nav.download">Descargar</span></p>
       <h2 data-i18n="dl.title">Tu próxima captura,<br><em>en un segundo</em>.</h2>
       <a class="btn btn-primary btn-xl" href="https://github.com/cmonroyp/screenshotcm-web/releases/latest/download/ScreenShotCM.msi">
         <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M3 5.5 10 4.5v7H3zm8-1.15L21 3v8.5H11zM3 12.5h7v7l-7-1zm8 0h10V21l-10-1.4z"/></svg>

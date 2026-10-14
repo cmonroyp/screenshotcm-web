@@ -306,3 +306,18 @@ kbd {
   .reveal, .copy > * { opacity: 1; transform: none; transition: none; }
   .hero-shot img { transform: none; }
 }
+
+/* ── Scrolling capture: the session and the long result side by side ── */
+.pair { display: grid; grid-template-columns: minmax(0, 2.6fr) minmax(0, 1fr); gap: 18px; align-items: start; }
+.long-wrap { display: grid; gap: 10px; }
+.long {
+  max-height: min(70vh, 560px); overflow: hidden; border-radius: 12px;
+  -webkit-mask-image: linear-gradient(#000 78%, transparent);
+  mask-image: linear-gradient(#000 78%, transparent);
+}
+.long img { width: 100%; border-radius: 12px; }
+.long-tag { margin: 0; font-size: 13px; color: var(--muted); text-align: center; }
+@media (max-width: 900px) {
+  .pair { grid-template-columns: 1fr; }
+  .long { max-height: 340px; }
+}

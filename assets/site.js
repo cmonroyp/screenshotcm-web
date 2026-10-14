@@ -4,7 +4,7 @@
   "use strict";
 
   const EN = {
-    "nav.capture": "Capture", "nav.annotate": "Annotate", "nav.present": "Present",
+    "nav.capture": "Capture", "nav.scroll": "Scroll", "nav.annotate": "Annotate", "nav.present": "Present",
     "nav.share": "Share", "nav.pin": "Pin", "nav.light": "Light", "nav.download": "Download",
     "rail.intro": "Intro",
     "hero.eyebrow": "For Windows 10 and 11",
@@ -19,6 +19,11 @@
     "key.ctrlprt": "Ctrl + Print Screen", "key.altshiftprt": "Alt + Shift + Print Screen", "key.ctrlshiftprt": "Ctrl + Shift + Print Screen",
     "cap.area": "An area", "cap.window": "A window", "cap.full": "Full screen", "cap.prev": "The same area again", "cap.scroll": "A whole page, by scrolling",
     "cap.note": "Shift keeps the selection square, the arrow keys move the pointer one pixel at a time, and Space switches to window capture.",
+    "scr.title": "A whole page, <em>in a single image</em>.",
+    "scr.body": "Long chats, documents and web pages that do not fit on the screen. Choose the area and scroll with the wheel, or press 201cAuto-scroll201d and ScreenShotCM scrolls to the end for you, joining each new stretch to the last.",
+    "scr.l1": "Fixed headers appear only once", "scr.l2": "No scroll-bar leftovers or repeated edges",
+    "scr.l3": "A live preview shows the image growing", "scr.key": "Scrolling capture",
+    "scr.tag": "The result: 1 image, 2,602 px tall",
     "ann.title": "Explain with <em>an arrow</em>, not a paragraph.",
     "ann.body": "The editor opens as soon as you capture. Straight or curved arrows, rectangles, ellipses, text, numbered counters, spotlight, pen and highlighter. And pixelate hides what must not be seen in one stroke.",
     "tool.arrow": "Curved arrows", "tool.text": "Editable text", "tool.counter": "Counters",
@@ -44,6 +49,8 @@
     "dl.f3": "A new version installs over the previous one", "dl.f4": "Free, no account, no ads", "dl.f5": "Open source, GPL-3.0 licence",
     "foot.privacy": "Privacy", "foot.source": "Source code", "foot.home": "Home", "foot.releases": "Releases", "foot.support": "Support",
     "alt.hero": "The ScreenShotCM editor with an annotated capture on a gradient background",
+    "alt.scroll": "A scrolling capture in progress over a chat, with its bar and preview",
+    "alt.long": "The whole chat in a single long image",
     "alt.capture": "Selecting an area with the magnifier over a frozen screen",
     "alt.editor": "A capture annotated with counters, a curved arrow, text and pixelated names",
     "alt.background": "The background panel with gradients, padding, rounding and shadow",
