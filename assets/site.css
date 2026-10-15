@@ -317,7 +317,11 @@ kbd {
 }
 .long img { width: 100%; border-radius: 12px; }
 .long-tag { margin: 0; font-size: 13px; color: var(--muted); text-align: center; }
+/* ── Light or dark: the same editor in both palettes ── */
+.duo { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; max-width: 1400px; margin: 0 auto; }
+.duo img { width: 100%; height: auto; }
 @media (max-width: 900px) {
+  .duo { grid-template-columns: 1fr; }
   .pair { grid-template-columns: 1fr; }
   .long { max-height: 340px; }
 }

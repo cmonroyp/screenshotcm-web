@@ -45,11 +45,14 @@
       <li><a href="#capturar"><span>01</span><em data-i18n="nav.capture">Capturar</em></a></li>
       <li><a href="#desplazar"><span>02</span><em data-i18n="nav.scroll">Desplazar</em></a></li>
       <li><a href="#anotar"><span>03</span><em data-i18n="nav.annotate">Anotar</em></a></li>
-      <li><a href="#presentar"><span>04</span><em data-i18n="nav.present">Presentar</em></a></li>
-      <li><a href="#compartir"><span>05</span><em data-i18n="nav.share">Compartir</em></a></li>
-      <li><a href="#fijar"><span>06</span><em data-i18n="nav.pin">Fijar</em></a></li>
-      <li><a href="#ligero"><span>07</span><em data-i18n="nav.light">Ligero</em></a></li>
-      <li><a href="#descargar"><span>08</span><em data-i18n="nav.download">Descargar</em></a></li>
+      <li><a href="#ocultar"><span>04</span><em data-i18n="nav.hide">Ocultar</em></a></li>
+      <li><a href="#recortar"><span>05</span><em data-i18n="nav.crop">Recortar</em></a></li>
+      <li><a href="#presentar"><span>06</span><em data-i18n="nav.present">Presentar</em></a></li>
+      <li><a href="#compartir"><span>07</span><em data-i18n="nav.share">Compartir</em></a></li>
+      <li><a href="#fijar"><span>08</span><em data-i18n="nav.pin">Fijar</em></a></li>
+      <li><a href="#tema"><span>09</span><em data-i18n="nav.theme">Claro u oscuro</em></a></li>
+      <li><a href="#ligero"><span>10</span><em data-i18n="nav.light">Ligero</em></a></li>
+      <li><a href="#descargar"><span>11</span><em data-i18n="nav.download">Descargar</em></a></li>
     </ol>
     <div class="rail-progress"><i></i></div>
   </aside>
@@ -134,19 +137,16 @@
       <div class="copy">
         <p class="eyebrow"><span>03</span> · <span data-i18n="nav.annotate">Anotar</span></p>
         <h2 data-i18n="ann.title">Explica con <em>una flecha</em>, no con un párrafo.</h2>
-        <p data-i18n="ann.body">El editor se abre solo al capturar. Flechas rectas o curvas, rectángulos, elipses, texto, contadores numerados, foco, lápiz y resaltador. Y para ocultar lo que no debe verse: pixelar, desenfocar o tapar en negro.</p>
+        <p data-i18n="ann.body">El editor se abre solo al capturar. Flechas rectas o curvas, rectángulos, elipses, texto, contadores numerados, foco, lápiz y resaltador. Un trazo casi recto del lápiz o del resaltador se endereza solo, sin teclas, y un texto se mueve arrastrando su marco y se borra entero con Supr.</p>
         <ul class="chips">
           <li data-i18n="tool.arrow">Flechas curvas</li>
           <li data-i18n="tool.text">Texto editable</li>
           <li data-i18n="tool.counter">Contadores</li>
-          <li data-i18n="tool.pixelate">Pixelar, desenfocar o tapar</li>
           <li data-i18n="tool.spotlight">Foco</li>
           <li data-i18n="tool.highlight">Resaltador</li>
-          <li data-i18n="tool.crop">Recorte con proporciones</li>
-          <li data-i18n="tool.rotate">Girar y voltear</li>
-          <li data-i18n="tool.resize">Cambio de tamaño</li>
+          <li data-i18n="tool.straight">Trazos que se enderezan solos</li>
+          <li data-i18n="tool.zoom">Zoom con Ctrl + rueda</li>
           <li data-i18n="tool.undo">Deshacer y rehacer</li>
-          <li data-i18n="tool.theme">Modo claro y oscuro</li>
         </ul>
       </div>
       <figure class="frame reveal">
@@ -155,10 +155,50 @@
       </figure>
     </section>
 
-    <!-- 04 · Presentar -->
+    <!-- 04 · Ocultar -->
+    <section class="chapter flip" id="ocultar" data-chapter>
+      <div class="copy">
+        <p class="eyebrow"><span>04</span> · <span data-i18n="nav.hide">Ocultar</span></p>
+        <h2 data-i18n="hid.title">Lo que no debe verse, <em>no se ve</em>.</h2>
+        <p data-i18n="hid.body">Nombres, correos, saldos o contraseñas: arrastra un recuadro encima y elige cómo taparlo. Las formas seguras destruyen lo que había debajo, de modo que nadie puede recuperarlo de la imagen.</p>
+        <ul class="list">
+          <li data-i18n="hid.l1">Pixelar (seguro)</li>
+          <li data-i18n="hid.l2">Desenfocar (seguro): borroso y sin rastro del original</li>
+          <li data-i18n="hid.l3">Desenfocar (suave): para fondos y detalles sin importancia</li>
+          <li data-i18n="hid.l4">Tapar en negro</li>
+        </ul>
+      </div>
+      <figure class="frame reveal">
+        <img class="shot" data-shot="hide.png" src="assets/img/es/hide.png" width="1378" height="865" loading="lazy"
+             alt="El menú de ocultar con sus cuatro formas: pixelar, desenfocar seguro, desenfocar suave y tapar en negro" data-i18n-alt="alt.hide">
+      </figure>
+    </section>
+
+    <!-- 05 · Recortar -->
+    <section class="chapter" id="recortar" data-chapter>
+      <div class="copy">
+        <p class="eyebrow"><span>05</span> · <span data-i18n="nav.crop">Recortar</span></p>
+        <h2 data-i18n="cro.title">Del tamaño <em>justo</em>.</h2>
+        <p data-i18n="cro.body">Recorta a mano alzada o con una proporción fija, y el marco se ajusta solo a los bordes de lo que capturaste. Gira, voltea o cambia el tamaño escribiendo el ancho; si te arrepientes, la captura vuelve a su original con un clic, con las anotaciones en su sitio.</p>
+        <ul class="chips">
+          <li data-i18n="cro.c1">Libre, original, cuadrado</li>
+          <li>4:3 · 3:2 · 16:9 · 9:16</li>
+          <li data-i18n="cro.c2">Ajuste a los bordes</li>
+          <li data-i18n="tool.rotate">Girar y voltear</li>
+          <li data-i18n="tool.resize">Cambio de tamaño</li>
+          <li data-i18n="cro.c3">Volver al original</li>
+        </ul>
+      </div>
+      <figure class="frame reveal">
+        <img class="shot" data-shot="crop.png" src="assets/img/es/crop.png" width="1378" height="865" loading="lazy"
+             alt="Un recorte 16:9 sobre la captura, con el menú de proporciones abierto" data-i18n-alt="alt.crop">
+      </figure>
+    </section>
+
+    <!-- 06 · Presentar -->
     <section class="chapter wide" id="presentar" data-chapter>
       <div class="copy center">
-        <p class="eyebrow"><span>04</span> · <span data-i18n="nav.present">Presentar</span></p>
+        <p class="eyebrow"><span>06</span> · <span data-i18n="nav.present">Presentar</span></p>
         <h2 data-i18n="pre.title">Lista para la <em>presentación</em>.</h2>
         <p data-i18n="pre.body">Un clic y la captura flota sobre un degradado, con margen, esquinas redondeadas y sombra. Perfecta para documentación, redes o una diapositiva.</p>
       </div>
@@ -168,10 +208,10 @@
       </figure>
     </section>
 
-    <!-- 05 · Compartir -->
+    <!-- 07 · Compartir -->
     <section class="chapter flip" id="compartir" data-chapter>
       <div class="copy">
-        <p class="eyebrow"><span>05</span> · <span data-i18n="nav.share">Compartir</span></p>
+        <p class="eyebrow"><span>07</span> · <span data-i18n="nav.share">Compartir</span></p>
         <h2 data-i18n="sha.title">Ya está en tu <em>portapapeles</em>.</h2>
         <p data-i18n="sha.body">Cada captura aparece en una miniatura en la esquina. Pasa el ratón para copiarla o guardarla, arrástrala directamente a un chat, un correo o un documento, o haz doble clic para anotarla.</p>
         <ul class="list">
@@ -186,10 +226,10 @@
       </figure>
     </section>
 
-    <!-- 06 · Fijar -->
+    <!-- 08 · Fijar -->
     <section class="chapter" id="fijar" data-chapter>
       <div class="copy">
-        <p class="eyebrow"><span>06</span> · <span data-i18n="nav.pin">Fijar</span></p>
+        <p class="eyebrow"><span>08</span> · <span data-i18n="nav.pin">Fijar</span></p>
         <h2 data-i18n="pin.title">Una referencia que <em>no se va</em>.</h2>
         <p data-i18n="pin.body">Fija una captura sobre todas las ventanas mientras trabajas: una cifra, un diseño, un fragmento de código. Arrástrala, cambia su tamaño con la rueda, su opacidad con Ctrl + rueda, o bloquéala para que los clics la atraviesen.</p>
       </div>
@@ -199,10 +239,25 @@
       </figure>
     </section>
 
-    <!-- 07 · Ligero -->
+    <!-- 09 · Claro u oscuro -->
+    <section class="chapter wide" id="tema" data-chapter>
+      <div class="copy center">
+        <p class="eyebrow"><span>09</span> · <span data-i18n="nav.theme">Claro u oscuro</span></p>
+        <h2 data-i18n="the.title">Claro u oscuro, <em>como tu Windows</em>.</h2>
+        <p data-i18n="the.body">El editor, la miniatura y los ajustes siguen el tema de Windows por su cuenta. Si prefieres uno fijo, elígelo en Ajustes → Tema.</p>
+      </div>
+      <figure class="frame duo reveal">
+        <img class="shot" data-shot="editor.png" src="assets/img/es/editor.png" width="1378" height="865" loading="lazy"
+             alt="El editor en modo oscuro" data-i18n-alt="alt.dark">
+        <img class="shot" data-shot="editor-light.png" src="assets/img/es/editor-light.png" width="1378" height="865" loading="lazy"
+             alt="El mismo editor en modo claro" data-i18n-alt="alt.light">
+      </figure>
+    </section>
+
+    <!-- 10 · Ligero -->
     <section class="chapter light" id="ligero" data-chapter>
       <div class="copy">
-        <p class="eyebrow"><span>07</span> · <span data-i18n="nav.light">Ligero</span></p>
+        <p class="eyebrow"><span>10</span> · <span data-i18n="nav.light">Ligero</span></p>
         <h2 data-i18n="lig.title">Hecho para <em>no notarse</em>.</h2>
         <p data-i18n="lig.body">Escrito en Rust sobre las API nativas de Windows. Sin navegador embebido, sin runtime, sin servicios en segundo plano. Arranca con Windows y espera en la bandeja gastando menos memoria que un icono de escritorio.</p>
         <dl class="specs">
@@ -211,18 +266,18 @@
           <div><dt>960 KB</dt><dd data-i18n="lig.s3">un único ejecutable</dd></div>
           <div><dt>0</dt><dd data-i18n="lig.s4">conexiones de red: todo queda en tu equipo</dd></div>
         </dl>
-        <p class="note" data-i18n="lig.note">Atajos configurables, español e inglés, y todo se ajusta desde una sola ventana.</p>
+        <p class="note" data-i18n="lig.note">Atajos configurables, español e inglés, tema claro u oscuro, y todo se ajusta desde una sola ventana.</p>
       </div>
       <figure class="frame reveal">
-        <img class="shot" data-shot="settings.png" src="assets/img/es/settings.png" width="1410" height="664" loading="lazy"
+        <img class="shot" data-shot="settings.png" src="assets/img/es/settings.png" width="1410" height="707" loading="lazy"
              alt="Ventana de ajustes con los atajos de teclado configurables" data-i18n-alt="alt.settings">
       </figure>
     </section>
 
-    <!-- 08 · Descargar -->
+    <!-- 11 · Descargar -->
     <section class="download" id="descargar" data-chapter>
       <div class="glow glow-c"></div>
-      <p class="eyebrow"><span>08</span> · <span data-i18n="nav.download">Descargar</span></p>
+      <p class="eyebrow"><span>11</span> · <span data-i18n="nav.download">Descargar</span></p>
       <h2 data-i18n="dl.title">Tu próxima captura,<br><em>en un segundo</em>.</h2>
       <a class="btn btn-primary btn-xl" href="https://github.com/cmonroyp/screenshotcm-web/releases/latest/download/ScreenShotCM.msi">
         <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M3 5.5 10 4.5v7H3zm8-1.15L21 3v8.5H11zM3 12.5h7v7l-7-1zm8 0h10V21l-10-1.4z"/></svg>
