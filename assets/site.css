@@ -244,7 +244,11 @@ kbd {
 }
 .glow-c { width: 70vw; height: 40vw; left: 15vw; top: 20%; background: radial-gradient(ellipse, rgba(47, 123, 255, .28), transparent 65%); }
 .download h2 { font-size: clamp(48px, 7.4vw, 116px); margin-bottom: 44px; }
-.dl-meta { margin: 22px 0 34px; font-size: 14px; }
+.store-badge { display: inline-block; border-radius: 10px; transition: transform .2s, filter .2s; }
+.store-badge:hover { transform: translateY(-2px); filter: brightness(1.12); }
+.store-badge img { display: block; width: 250px; height: auto; }
+.dl-note { margin: 14px 0 26px; font-size: 14px; }
+.dl-meta { margin: 14px 0 34px; font-size: 14px; }
 .dl-facts { list-style: none; padding: 0; margin: 0 auto 30px; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px 26px; max-width: 900px; }
 .dl-facts li { color: #d6d4dd; font-size: 15px; }
 .dl-facts li::before { content: "✓"; color: var(--sky); margin-right: 8px; }

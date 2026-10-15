@@ -1,8 +1,8 @@
 # ScreenShotCM — sitio web
 
 El sitio de ScreenShotCM, publicado con GitHub Pages en
-<https://cmonroyp.github.io/screenshotcm-web/>, y las descargas del instalador
-en [Releases](https://github.com/cmonroyp/screenshotcm-web/releases).
+<https://screenshotcm.github.io/>, y las descargas del instalador
+en [Releases](https://github.com/screenshotcm/screenshotcm.github.io/releases).
 
 - `index.html` — la página, en español; `assets/site.js` la pasa a inglés.
 - `privacy.html` — la política de privacidad (enlazada desde la Microsoft Store).
@@ -13,4 +13,4 @@ HTML, CSS y JavaScript sin dependencias ni paso de compilación. Las tipografía
 (Instrument Serif e Inter, SIL Open Font License) se cargan desde Google Fonts.
 
 La descarga permanente de la última versión es
-<https://github.com/cmonroyp/screenshotcm-web/releases/latest/download/ScreenShotCM.msi>.
+<https://github.com/screenshotcm/screenshotcm.github.io/releases/latest/download/ScreenShotCM.msi>.

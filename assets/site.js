@@ -55,7 +55,7 @@
     "lig.s3": "one single executable", "lig.s4": "network connections: everything stays on your PC",
     "lig.note": "Configurable shortcuts, Spanish and English, light or dark theme, and everything set from one window.",
     "dl.title": "Your next capture,<br><em>in a second</em>.",
-    "dl.button": "Download for Windows", "dl.meta": "MSI installer · 504 KB · version",
+    "dl.button": "Or download the MSI installer", "dl.store": "Recommended: signed by Microsoft, updated automatically.", "dl.meta": "MSI installer · 504 KB · version",
     "dl.f1": "Windows 10 and 11, 64-bit", "dl.f2": "Installs for your user, no administrator needed",
     "dl.f3": "A new version installs over the previous one", "dl.f4": "Free, no account, no ads", "dl.f5": "Open source, GPL-3.0 licence",
     "foot.privacy": "Privacy", "foot.source": "Source code", "foot.home": "Home", "foot.releases": "Releases", "foot.support": "Support",
