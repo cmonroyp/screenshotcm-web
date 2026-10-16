@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: "Descargar la última versión · Download the latest version"
-    url: https://cmonroyp.github.io/screenshotcm-web/#descargar
+    url: https://screenshotcm.github.io/#descargar
     about: "Antes de reportar un error, comprueba que tienes la última versión · Before reporting a bug, check you have the latest version"
   - name: "Privacidad · Privacy"
-    url: https://cmonroyp.github.io/screenshotcm-web/privacy.html
+    url: https://screenshotcm.github.io/privacy.html
     about: "ScreenShotCM no recoge ni envía datos · ScreenShotCM collects and sends no data"
